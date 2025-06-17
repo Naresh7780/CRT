@@ -76,7 +76,7 @@ class Graph{
             if(!visited[current]){
                 visited[current]=true;
                 System.out.println(current+" ");
-                var neibhours=getNeighbours(current);
+                HashSet<Integer> neibhours=getNeighbours(current);
                 for (Integer neibhour:neibhours){
                     q.add(neibhour);
                 }

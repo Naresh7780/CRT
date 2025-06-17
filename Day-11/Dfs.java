@@ -70,8 +70,8 @@ class Graph{
     void dfs(int s,boolean[] visited){
         visited[s]=true;
         System.out.println(s+" ");
-        var neibhours=getNeighbours(s);
-        for(var neibhour: neibhours){
+        HashSet<Integer> neibhours=getNeighbours(s);
+        for(HashSet<Integer> neibhour: neibhours){  
             if(!visited[neibhour]){
                 dfs(neibhour,visited);
             }

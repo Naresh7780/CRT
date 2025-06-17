@@ -47,7 +47,7 @@ class Stack {
 		if(isempty()) {
 			return;
 		}
-		Node temp=head;
+		Node temp =head;
 		head=head.next;
 	}
 

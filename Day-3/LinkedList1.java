@@ -47,7 +47,7 @@ class linkedList {
 			length= length+1;
 			temp=temp.next;
 		}
-		if(Pos>=0 & Pos<=length) {
+		if(Pos>=0 && Pos<=length) {
 			if(Pos==0) insertBeg(data);
 			else if (Pos== length) insertEnd(data);
 			else {
@@ -114,7 +114,7 @@ class linkedList {
 	    }
 	}
 	int deletePos(int pos){
-	    int length1=length();
+	    int length1 =length();
 	    return 1;
 	}
 

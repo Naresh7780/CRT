@@ -49,7 +49,7 @@ public void addEdge(int src,int dest,int weight){
         Edge e= new Edge(src,dest,weight);
         graph.add(e);
         if(! isDirected){
-            var e2=new Edge(dest,src,weight);
+            Edge e2=new Edge(dest,src,weight);
             graph.add(e2);
         }
     }else{

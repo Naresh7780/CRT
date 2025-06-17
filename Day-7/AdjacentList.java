@@ -44,7 +44,7 @@ public ArrayList<Integer>neighbours(int node){
 }
 boolean isHavingEdge(int src,int dest){
     if(isValid(src,dest)){
-        Node arr=graph.get(src);
+        int[] arr=graph.get(src);
         for(int i=0;i<arr.size();i++){
             if(arr.get(i)==dest){
                 return true;
