@@ -115,7 +115,7 @@ class linkedList {
 	}
 	int deletePos(int pos){
 	    int length1=length();
-	    
+	    return 1;
 	}
 
 
